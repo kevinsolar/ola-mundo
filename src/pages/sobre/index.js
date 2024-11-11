@@ -1,5 +1,7 @@
 export default function SobreMim() {
-   return (
-      <h1>Sobre mim</h1>
-   )
+	return (
+		<main>
+			<h1>Sobre mim</h1>
+		</main>
+	);
 }

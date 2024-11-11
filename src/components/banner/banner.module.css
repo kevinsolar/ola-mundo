@@ -58,17 +58,10 @@
 	}
 
 	.imagens {
-		height: 338px;
+		min-height: 100px;
+      height: 250px;
 	}
 
-	.imagens > .minhaFoto {
-		width: 25vw;
-	}
-
-	.imagens > .circuloColorido {
-		right: 10vw;
-		width: 35vw;
-	}
 }
 
 @media (max-width: 744px) {
@@ -85,24 +78,10 @@
 		margin-bottom: 2rem;
 	}
 
-	.imagens {
-		height: 307px;
-	}
-
 	.imagens > .minhaFoto,
 	.imagens > .circuloColorido {
 		left: 0;
 		right: 0;
 		margin: 0 auto;
-	}
-
-	.imagens > .minhaFoto {
-		width: 170px;
-		transform: translate(5rem, 0px);
-	}
-
-	.imagens > .circuloColorido {
-		width: 240px;
-		transform: translate(-1.5rem, 0px);
 	}
 }
