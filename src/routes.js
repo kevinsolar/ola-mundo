@@ -4,6 +4,7 @@ import SobreMim from "./pages/sobre";
 import Menu from "./components/header";
 import Footer from "components/footer";
 import PaginaPadrao from "components/PaginaPadrao";
+import Post from "pages/Post";
 
 function AppRoutes() {
 	return (
@@ -16,6 +17,7 @@ function AppRoutes() {
                {/* o path "/" pode ser substituido por index, para dizer que é o mesmo caminho do pai, ou seja, inicio */}
 					<Route index element={<Inicio />} />
 					<Route path="sobre" element={<SobreMim />} />
+               <Route path="posts/:id" element={<Post />} />
 
 				</Route>
 

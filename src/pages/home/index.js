@@ -1,5 +1,5 @@
 import styles from "./inicio.module.css";
-import Post from "components/Post";
+import Post from "components/PostCard";
 
 import posts from "json/posts.json";
 
