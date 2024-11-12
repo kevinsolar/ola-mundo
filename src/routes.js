@@ -5,6 +5,7 @@ import Menu from "./components/header";
 import Footer from "components/footer";
 import PaginaPadrao from "components/PaginaPadrao";
 import Post from "pages/Post";
+import Page404 from "pages/404";
 
 function AppRoutes() {
 	return (
@@ -39,7 +40,7 @@ function AppRoutes() {
                caminho passado pelo path
             */}
 
-				<Route path="*" element={<div>Página não encontrada</div>} />
+				<Route path="*" element={<Page404 />} />
 			</Routes>
 
 			<Footer />
