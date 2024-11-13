@@ -6,10 +6,12 @@ import Footer from "components/footer";
 import PaginaPadrao from "components/PaginaPadrao";
 import Post from "pages/Post";
 import Page404 from "pages/404";
+import ScrollToTop from "components/ScrollToTop";
 
 function AppRoutes() {
 	return (
 		<BrowserRouter>
+         <ScrollToTop />
 			<Menu />
 
 			<Routes>
