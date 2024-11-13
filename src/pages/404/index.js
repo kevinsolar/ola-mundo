@@ -25,7 +25,7 @@ export default function Page404() {
 
             <div
                className={styles.botaoContainer}
-               onClick={() => navegar("/")}
+               onClick={() => navegar(-1)}
             >
                <BotaoPrincipal tamanho="lg">
                   Voltar
