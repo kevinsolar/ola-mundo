@@ -37,7 +37,7 @@ function AppRoutes() {
                caminho passado pelo path
                */}
 
-				<Route path="posts/:id" element={<Post />} />
+				<Route path="posts/:id/*" element={<Post />} />
 				<Route path="*" element={<Page404 />} />
 			</Routes>
 
