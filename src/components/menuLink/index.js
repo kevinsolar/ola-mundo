@@ -6,7 +6,7 @@ export default function Menulink({ children, to }) {
 
 	return (
 		<Link
-			className={`${styles.link} ${
+			className={`text-base 2xl:text-xl text-amber-50 ${
 				localizacao.pathname === to ? styles.linkDestacado : ""
 			}`}
 			to={to}

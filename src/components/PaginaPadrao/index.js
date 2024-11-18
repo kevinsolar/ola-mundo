@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 
 export default function PaginaPadrao({ children }) {
 	return (
-		<main>
+		<main className="bg-stone-900">
 			<Banner />
 
 			<Outlet />
