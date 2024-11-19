@@ -9,7 +9,7 @@ export default function PostModelo({ fotoCapa, titulo, children }) {
          >
          </div>
 
-         <h2 className={styles.titulo}>
+         <h2 className={`text-amber-600 ${styles.titulo}`}>
             {titulo}
          </h2>
 

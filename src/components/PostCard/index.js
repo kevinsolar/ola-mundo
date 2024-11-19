@@ -8,7 +8,7 @@ export default function PostCard({ post }) {
             <div className="h-3/5 relative overflow-hidden w-full">
                <img
                   className="w-full h-full object-cover"
-                  src={`/assets/posts/${post.id}/capa.png`}
+                  src={!post.capa ? `/assets/posts/${post.id}/capa.png` : post.capa}
                   alt='Imagem de capa'
                />
             </div>

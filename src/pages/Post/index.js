@@ -29,7 +29,7 @@ export default function Post() {
 				fotoCapa={`/assets/posts/${post.id}/capa.png`}
 				titulo={post.titulo}
 			>
-				<div className="post-markdown-container">
+				<div className="post-markdown-container text-amber-50">
 					<ReactMarkdown>{post.texto}</ReactMarkdown>
 				</div>
 
